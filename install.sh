@@ -38,3 +38,6 @@ nvm install v16.13.2
 npm install -g terminalizer
 bash <(curl https://raw.githubusercontent.com/ellie/atuin/main/install.sh)
 git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.10.0
+
+
+curl https://raw.githubusercontent.com/billmetangmo/cli-tools/main/dotfiles/bashrc --output ~/.bashrc
