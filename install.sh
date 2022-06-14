@@ -19,7 +19,7 @@ cd /tmp &&\
 wget https://github.com/marcosnils/bin/releases/download/v0.15.0/bin_0.15.0_Linux_x86_64 &&\
 mv bin_0.15.0_Linux_x86_64 bin &&\
 chmod u+x bin &&\
-mv bin /usr/local/bin
+sudo mv bin /usr/local/bin
 
 bin ls
 bin install github.com/marcosnils/bin
@@ -27,10 +27,15 @@ bin install github.com/junegunn/fzf # fuzzy find
 bin install github.com/joehillen/sysz # systemctl fuzzy find ( needs fzf)
 bin install github.com/antonmedv/fx # terminal json viewer
 bin install github.com/charmbracelet/glow # markdown render on the CLI
-bin install github.com/ycd/dstp # common networking tests
 bin install github.com/parca-dev/parca # python perfomance
 bin install github.com/multiprocessio/dsq # sql against json,csv ...
 #bin install docker://hieven/terraform-visual-cli
+
+bin install github.com/ycd/dstp # common networking tests
+bin install github.com/ekzhang/bore # local tunneling
+bin install github.com/imsnif/bandwhich # bandwith used per app
+sudo setcap cap_sys_ptrace,cap_dac_read_search,cap_net_raw,cap_net_admin+ep `which bandwhich`
+bin install github.com/orf/gping # graph a command ping but alos others with --cmd
 
 
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
