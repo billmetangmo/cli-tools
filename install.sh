@@ -37,6 +37,9 @@ bin install github.com/imsnif/bandwhich # bandwith used per app
 sudo setcap cap_sys_ptrace,cap_dac_read_search,cap_net_raw,cap_net_admin+ep `which bandwhich`
 bin install github.com/orf/gping # graph a command ping but alos others with --cmd
 
+sudo add-apt-repository ppa:cncf-buildpacks/pack-cli
+sudo apt-get update
+sudo apt-get install pack-cli
 
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 nvm install v16.13.2
