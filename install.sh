@@ -29,6 +29,7 @@ bin install github.com/antonmedv/fx # terminal json viewer
 bin install github.com/charmbracelet/glow # markdown render on the CLI
 bin install github.com/parca-dev/parca # python perfomance
 bin install github.com/multiprocessio/dsq # sql against json,csv ...
+bin install github.com/lucagrulla/cw # cloudwatch logs easily
 #bin install docker://hieven/terraform-visual-cli
 
 bin install github.com/ycd/dstp # common networking tests
