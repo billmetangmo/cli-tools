@@ -46,6 +46,7 @@ sudo apt-get install pack-cli
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 nvm install v16.13.2
 npm install -g terminalizer
+npm install -g localtunnel
 bash <(curl https://raw.githubusercontent.com/ellie/atuin/main/install.sh)
 git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.10.0
 
