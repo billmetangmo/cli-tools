@@ -11,6 +11,7 @@ pipx install doitlive && pipx install terminalizer # record terminal
 pipx install visidata && pipx install datasette && pipx install csv-to-sqlite
 pipx install memray && pipx install fastero # evaluate python performance
 pipx install jut # render python notebook in CLI
+pipx install httpie # modern curl
 
 sudo apt install ncdu duf -y # disk usage
 sudo apt install autojump -y # memory for change directory
