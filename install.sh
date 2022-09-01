@@ -40,6 +40,8 @@ bin install github.com/homeport/termshot # beautiful screen picture of cmd
 #bin install docker://hieven/terraform-visual-cli
 bin install github.com/aristocratos/btop
 
+bin install https://github.com/denisidoro/navi
+
 bin install github.com/ycd/dstp # common networking tests
 bin install github.com/ekzhang/bore # local tunneling
 bin install github.com/imsnif/bandwhich # bandwith used per app
