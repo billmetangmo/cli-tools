@@ -13,7 +13,6 @@ pipx install doitlive && pipx install terminalizer # record terminal
 pipx install visidata && pipx install datasette && pipx install csv-to-sqlite
 pipx install memray && pipx install fastero # evaluate python performance
 pipx install jut # render python notebook in CLI
-pipx install httpie # modern curl
 pipx install pre-commit # tools for commit check
 pipx install detect-secrets
 
@@ -41,6 +40,10 @@ bin install github.com/homeport/termshot # beautiful screen picture of cmd
 bin install github.com/aristocratos/btop
 
 bin install https://github.com/denisidoro/navi
+bin install https://github.com/schollz/croc # file send
+bin install https://github.com/rs/curlie # modern curl
+bin install https://github.com/mgdm/htmlq
+bin install https://github.com/tstack/lnav
 
 bin install github.com/ycd/dstp # common networking tests
 bin install github.com/ekzhang/bore # local tunneling
