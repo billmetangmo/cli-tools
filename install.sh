@@ -1,6 +1,8 @@
 set -e
 
 sudo apt update && sudo apt install -y wget curl python3-pip git
+curl https://raw.githubusercontent.com/GitAlias/gitalias/main/gitalias.txt -o gitalias.txt
+git config --global include.path gitalias.txt
 
 sudo apt install pipx
 pipx install tldr && pipx install rich-cli  && pipx install thefuck
