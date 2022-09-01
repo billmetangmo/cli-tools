@@ -180,3 +180,5 @@ eval "$(atuin init bash)"
 
 # pack
 . $(pack completion)
+
+alias navi="navi --cheatsh"
