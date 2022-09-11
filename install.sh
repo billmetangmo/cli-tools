@@ -38,6 +38,7 @@ bin install github.com/timvisee/ffsend
 bin install github.com/homeport/termshot # beautiful screen picture of cmd
 #bin install docker://hieven/terraform-visual-cli
 bin install github.com/aristocratos/btop
+bin install https://github.com/tsl0922/ttyd
 
 bin install https://github.com/denisidoro/navi
 bin install https://github.com/schollz/croc # file send
