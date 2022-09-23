@@ -36,9 +36,13 @@ bin install github.com/multiprocessio/dsq # sql against json,csv ...
 bin install github.com/lucagrulla/cw # cloudwatch logs easily
 bin install github.com/timvisee/ffsend 
 bin install github.com/homeport/termshot # beautiful screen picture of cmd
-#bin install docker://hieven/terraform-visual-cli
 bin install github.com/aristocratos/btop
 bin install https://github.com/tsl0922/ttyd
+bin install https://github.com/sethvargo/ratchet
+
+# Terraform
+bin install https://github.com/im2nguyen/rover 
+bin install https://github.com/dineshba/tf-summarize
 
 bin install https://github.com/denisidoro/navi
 bin install https://github.com/schollz/croc # file send
