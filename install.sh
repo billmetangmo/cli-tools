@@ -28,6 +28,7 @@ sudo mv bin /usr/local/bin
 bin ls
 bin install github.com/marcosnils/bin
 bin install github.com/junegunn/fzf # fuzzy find
+bin install github.com/truefoundry/secretsfoundry
 bin install github.com/joehillen/sysz # systemctl fuzzy find ( needs fzf)
 bin install github.com/antonmedv/fx # terminal json viewer
 bin install github.com/charmbracelet/glow # markdown render on the CLI
