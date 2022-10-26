@@ -40,6 +40,8 @@ bin install github.com/homeport/termshot # beautiful screen picture of cmd
 bin install github.com/aristocratos/btop
 bin install https://github.com/tsl0922/ttyd
 bin install https://github.com/sethvargo/ratchet
+bin install https://github.com/jesseduffield/lazygit
+bin install https://github.com/jesseduffield/lazydocker
 
 # Terraform
 bin install https://github.com/im2nguyen/rover 
