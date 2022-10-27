@@ -15,6 +15,8 @@ pipx install memray && pipx install fastero # evaluate python performance
 pipx install jut # render python notebook in CLI
 pipx install pre-commit # tools for commit check
 pipx install detect-secrets
+pipx install saws
+pipx runpip saws install aws
 
 sudo apt install ncdu duf -y # disk usage
 sudo apt install autojump -y # memory for change directory
