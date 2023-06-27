@@ -37,6 +37,7 @@ bin install github.com/charmbracelet/glow # markdown render on the CLI
 bin install github.com/parca-dev/parca # python perfomance
 bin install github.com/multiprocessio/dsq # sql against json,csv ...
 bin install github.com/lucagrulla/cw # cloudwatch logs easily
+bin install https://github.com/samwho/spacer # insert spacers when command output stops
 bin install github.com/timvisee/ffsend 
 bin install github.com/homeport/termshot # beautiful screen picture of cmd
 bin install github.com/aristocratos/btop
