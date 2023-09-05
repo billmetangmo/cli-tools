@@ -22,8 +22,8 @@ sudo apt install ncdu duf -y # disk usage
 sudo apt install autojump -y # memory for change directory
 
 cd /tmp &&\
-wget https://github.com/marcosnils/bin/releases/download/v0.16.2/bin_0.16.2_Linux_x86_64 &&\
-mv bin_0.16.2_Linux_x86_64 bin &&\
+wget https://github.com/marcosnils/bin/releases/download/v0.17.0/bin_0.17.0_Linux_x86_64 &&\
+mv bin_0.17.0_Linux_x86_64 bin &&\
 chmod u+x bin &&\
 sudo mv bin /usr/local/bin
 
