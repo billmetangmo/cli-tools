@@ -73,5 +73,8 @@ npm install -g localtunnel
 bash <(curl https://raw.githubusercontent.com/ellie/atuin/main/install.sh)
 git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.10.0
 
+npm install --global basti
+bin install https://github.com/lucagrulla/cw
+
 
 curl https://raw.githubusercontent.com/billmetangmo/cli-tools/main/dotfiles/bashrc --output ~/.bashrc
