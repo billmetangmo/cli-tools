@@ -76,5 +76,9 @@ git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.10.0
 npm install --global basti
 bin install https://github.com/lucagrulla/cw
 
+bin install https://github.com/nektos/act
+pipx install bitbucket-pipeline-runner
+pipx install gitlabci-local
+
 
 curl https://raw.githubusercontent.com/billmetangmo/cli-tools/main/dotfiles/bashrc --output ~/.bashrc
