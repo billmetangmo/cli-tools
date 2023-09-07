@@ -79,6 +79,7 @@ bin install https://github.com/lucagrulla/cw
 bin install https://github.com/nektos/act
 pipx install bitbucket-pipeline-runner
 pipx install gitlabci-local
+npm install -g gitlab-ci-local #https://github.com/firecow/gitlab-ci-local
 
 
 curl https://raw.githubusercontent.com/billmetangmo/cli-tools/main/dotfiles/bashrc --output ~/.bashrc
