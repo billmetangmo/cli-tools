@@ -9,7 +9,7 @@ pipx install tldr && pipx install rich-cli  && pipx install thefuck
 pipx install pipenv && pipx install pip-run && pipx install pip-tools && \
 pipx install pip-autoremove && pipx install "pypi-command-line[speedups]"
 pipx install jc # transform all cmd output to json
-pipx install doitlive && pipx install terminalizer # record terminal
+pipx install doitlive && npm install -g terminalizer # record terminal
 pipx install visidata && pipx install datasette && pipx install csv-to-sqlite
 pipx install memray && pipx install fastero # evaluate python performance
 pipx install jut # render python notebook in CLI
