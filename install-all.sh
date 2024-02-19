@@ -55,6 +55,7 @@ bin install https://github.com/schollz/croc # file send
 bin install https://github.com/rs/curlie # modern curl
 bin install https://github.com/mgdm/htmlq
 bin install https://github.com/tstack/lnav
+bin install https://github.com/Textualize/toolong
 
 bin install github.com/ycd/dstp # common networking tests
 bin install github.com/ekzhang/bore # local tunneling
